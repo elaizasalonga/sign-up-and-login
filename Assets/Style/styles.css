@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toggle-button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #FF407D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #FFCAD4;
+}
+
+.card {
+    width: 100%;
+    background-color: #FFCAD4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.card input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card button[type="submit"] {
+    width: calc(100% - 15px);
+    padding: 10px;
+    background-color: #FF407D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button[type="submit"]:hover {
+    background-color: #FF407D;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login-button {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button.gmail {
+    background-color: #492E87;
+    color: #fff;
+}
+
+.login-button.microsoft {
+    background-color: #40679E;
+    color: #fff;
+}
+
+.login-button.LinkedIn {
+    background-color: #1B3C73;
+    color: #fff;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+.signup-button {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.signup-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.signup-button.gmail{
+    background-color: #492E87;
+    color: #fff;
+}
+
+.signup-button.microsoft{
+    background-color: #40679E;
+    color: #fff;
+}
+
+.signup-button.LinkedIn{
+  background-color: #1B3C73;
+  color: #fff;
+}
+.signup-button:hover {
+    opacity: 0.8;
+}
+
+.receipt-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+#go-back {
+    margin-top: 20px;
+    background-color: #FFCAD4;
+    border-color: #FFCAD4;
+    color: #666;
+    font-weight: bold;
+}
+
+
+.receipt {
+    width: 300px;
+    background-color: #FF407D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.icon {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+    margin-left: 0;
+    margin-top: 4%;
+}
+
+
+.receipt h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.receipt p {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.receipt p strong {
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
